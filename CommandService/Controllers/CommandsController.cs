@@ -76,7 +76,7 @@ namespace CommandService.Controllers
             return CreatedAtRoute(
                 nameof(GetCommandForPlatform),
                 new { platformId = platformId, commandId = commandReadDto.Id },
-                commandCreateDto
+                commandReadDto
                 );
         }
     }

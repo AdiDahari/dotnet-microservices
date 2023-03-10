@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CommandService.Models;
 using CommandService.SyncDataServices.Grpc;
 using Microsoft.AspNetCore.Builder;
